@@ -1,7 +1,9 @@
+% !TEX spellcheck=en_US
 \documentclass[a4paper]{article}
 \usepackage[american]{babel}
 \usepackage[T1]{fontenc}
 \usepackage[utf8]{inputenc}
+\usepackage[activate={true,nocompatibility},final,tracking=true,kerning=true,spacing=true,factor=1100,stretch=10,shrink=10]{microtype}
 \usepackage{csquotes}
 \usepackage{hyperref}
 \usepackage[backend=biber,style=mla]{biblatex}
@@ -9,6 +11,9 @@
 \title{Title of Essay}
 \author{Name}
 \date{\today}
+
+% microtype
+\SetTracking{encoding={*}, shape=sc}{0}
 
 \addbibresource{en_essay.bib}
 
