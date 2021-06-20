@@ -1,0 +1,45 @@
+\documentclass[a4paper]{article}
+\usepackage[american]{babel}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{csquotes}
+\usepackage{hyperref}
+\usepackage[backend=biber,style=mla]{biblatex}
+
+\title{Title of Essay}
+\author{Name}
+\date{\today}
+
+\addbibresource{en_essay.bib}
+
+\begin{document}
+
+\maketitle
+
+\begin{abstract}
+Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ratione commodi quam nemo a tenetur
+saepe perferendis et nesciunt laboriosam porro! Lorem ipsum dolor sit amet.
+\end{abstract}
+
+\section{Headline}
+Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ratione commodi quam nemo a tenetur
+saepe perferendis et nesciunt laboriosam porro! Lorem ipsum dolor sit amet \autocite[p. 101]{rainsford2014}.
+
+\begin{displayquote}
+    This package may be a bit overwhelming because of the large number of
+    available commands and environments, but for most of the cases the
+    two commands shown above might suffice. \autocite[p. 99]{wheeler2018}
+\end{displayquote}
+
+\section{Discussion}
+Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ratione commodi quam nemo a tenetur
+saepe perferendis et nesciunt laboriosam porro! Lorem ipsum dolor sit amet \autocite{rainsford2014}.
+
+\section{Conclusion}
+Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ratione commodi quam nemo a tenetur
+saepe perferendis et nesciunt laboriosam porro! Lorem ipsum dolor sit amet \autocite{wheeler2018}.
+
+\medskip
+\printbibliography
+
+\end{document}
