@@ -13,12 +13,12 @@ document for further information. Both TeX Live and MikTeX come with
 `latexmk`, though since this is a perl script you need to have perl
 installed on your system to run this command.
 
-```
+```cli
 latexmk en_essay.tex -outdir=build -pdf
 ```
 
 ## Clear Cache
 
-```
+```cli
 latexmk -C -outdir=build
 ```
